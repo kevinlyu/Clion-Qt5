@@ -28,10 +28,12 @@
 2. Copy "Qt5Core.dll", "Qt5Gui.dll", and "Qt5Widgets.dll" into cmake-build-debug directory
 
 3. In "CMake" --> "CMake options", add\
-    "-DCMAKE_PREFIX_PATH=C:\Qt\Qt5.14.2\5.14.2\mingw73_64\"
+
+         "-DCMAKE_PREFIX_PATH=C:\Qt\Qt5.14.2\5.14.2\mingw73_64\"
 
 4. In "Edit Run/Debug configurations" --> "Environment Variables", add\
- "QT_QPA_PLATFORM_PLUGIN_PATH=C:\Qt\Qt5.14.2\5.14.2\mingw73_64\plugins\platforms"
+
+        "QT_QPA_PLATFORM_PLUGIN_PATH=C:\Qt\Qt5.14.2\5.14.2\mingw73_64\plugins\platforms"
 
 ## Reference
 [https://www.jetbrains.com/help/clion/qt-tutorial.html](https://www.jetbrains.com/help/clion/qt-tutorial.html)
